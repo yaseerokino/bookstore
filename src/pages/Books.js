@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BookItem from '../components/BookItem';
 import AddBook from '../components/AddBook';
 
 const Books = () => {
+  const [books, setBooks] = useState([]);
   return (
     <main>
       <section>
