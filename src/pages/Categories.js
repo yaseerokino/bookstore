@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Categories = () => {
-  return (
-    <div>
-      <h3>Under Construction</h3>
-    </div>
-  );
-};
+const Categories = () => (
+  <div>
+    <h3>Under Construction</h3>
+  </div>
+);
 
 export default Categories;
