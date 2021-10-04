@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magicians
+# Book Store
 
 > A web application that allows users to CRUD books
 
@@ -39,7 +39,7 @@ If you have installed git you can clone the code to your machine, or download a 
 [Download the ZIP from this location](https://github.com/yaseerokino/bookstore/archive/refs/heads/develop.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
 ```bash
-git clone https://github.com/yaseerokino/math-magicians.git
+git clone https://github.com/yaseerokino/bookstore.git
 ```
 
 ### **Prerequisites**
