@@ -14,23 +14,21 @@ const links = [
   },
 ];
 
-const Header = () => {
-  return (
-    <header>
-      <h4>Book Store</h4>
-      <nav>
-        <ul className="nav-ul">
-          {links.map((link) => (
-            <li key={link.id}>
-              <Link className="nav-a" to={link.path}>
-                {link.text}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
-  );
-};
+const Header = () => (
+  <header>
+    <h4>Book Store</h4>
+    <nav>
+      <ul className="nav-ul">
+        {links.map((link) => (
+          <li key={link.id}>
+            <Link className="nav-a" to={link.path}>
+              {link.text}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </header>
+);
 
 export default Header;
