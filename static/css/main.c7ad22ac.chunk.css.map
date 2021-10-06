@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/styles/partials/_components.scss","webpack://src/styles/partials/_layout.scss"],"names":[],"mappings":"AAEC,cCDC,UAAY","file":"main.c7ad22ac.chunk.css","sourcesContent":["button {\n  color: black;\n}\n","body {\n  color: black;\n}\n"]}
