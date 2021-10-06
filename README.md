@@ -22,7 +22,7 @@
 
 ## 📡 Live Demo
 
-[Link to Live Demo](https://yaseerokino.github.io/bookstore/)
+[Link to Live Demo](https://bookstore-okino.netlify.app/)
 
 ## 🧰 Tools
 
