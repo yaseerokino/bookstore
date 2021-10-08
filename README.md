@@ -22,7 +22,7 @@
 
 ## 📡 Live Demo
 
-[Link to Live Demo](https://bookstore-okino.netlify.app/)
+[Link to Live Demo](https://deploy-preview-4--bookstore-okino.netlify.app/)
 
 ## 🧰 Tools
 

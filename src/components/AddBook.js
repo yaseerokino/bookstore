@@ -29,27 +29,36 @@ const AddBook = ({ addBookToStoreProps }) => {
   };
 
   return (
-    <form>
-      <input
-        type="text"
-        name="title"
-        placeholder="Book Title"
-        onChange={onChange}
-        value={formInputs.title}
-        required
-      />
-      <input
-        type="text"
-        name="category"
-        placeholder="Book Author"
-        onChange={onChange}
-        value={formInputs.category}
-        required
-      />
-      <button type="button" onClick={addBook}>
-        Add New Book
-      </button>
-    </form>
+    <>
+      <p className="add-form-header">ADD NEW BOOK</p>
+      <form className="add-form">
+        <div className="add-form__left">
+          <input
+            className="add-form__input add-form__input--title"
+            type="text"
+            name="title"
+            placeholder="Book Title"
+            onChange={onChange}
+            value={formInputs.title}
+            required
+          />
+        </div>
+        <div className="add-form__right">
+          <input
+            type="text"
+            className="add-form__input add-form__input--category"
+            name="category"
+            placeholder="Book Category"
+            onChange={onChange}
+            value={formInputs.category}
+            required
+          />
+          <button type="button" onClick={addBook} className="add-form__btn">
+            Add New Book
+          </button>
+        </div>
+      </form>
+    </>
   );
 };
 
