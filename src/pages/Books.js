@@ -25,10 +25,10 @@ const Books = () => {
   };
 
   return (
-    <main>
-      <section>
+    <main className="container">
+      <section className="books">
         {!!books && (
-          <ul>
+          <ul className="book-list">
             {books.map((book) => (
               <BookItem
                 key={book.item_id}
@@ -39,6 +39,7 @@ const Books = () => {
           </ul>
         )}
       </section>
+      <hr className="divider" />
       <section>
         <AddBook addBookToStoreProps={addBookToStore} />
       </section>
